@@ -14,8 +14,11 @@ public static void main (String[] args ){
        if(select == 1){
               Activity1 act1 = new Activity1();
               act1.userGreatings();
-       }else {
-              System.out.println("Selection not Found!");
+       }else if(select == 2){
+              Activity2 act2 = new Activity2();
+              act2.cinemaTicketSystem();
+       }else{
+              System.out.print("System not found");
        }
 
 }
